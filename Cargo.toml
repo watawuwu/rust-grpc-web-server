@@ -1,0 +1,2 @@
+[workspace]
+members = [ "tonic-server", "stepancheg-server", "stepancheg-server-latest", "tikv-server"]

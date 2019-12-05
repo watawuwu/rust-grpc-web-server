@@ -1,0 +1,17 @@
+[package]
+name    = "stepancheg-server"
+version = "0.1.0"
+authors = ["Wataru Matsui <watawuwu@3bi.tech>"]
+exclude = ["examples/*", "tests/*", "benches/*", "*.png", "perf/*", "assets", "Makefile", "tmp.rs"]
+edition = "2018"
+
+[dependencies]
+grpc               = "0.6.1"
+protobuf           = "2"
+futures            = "0.1.*"
+futures-cpupool    = "0.1.*"
+tls-api            = "0.1.*"
+tls-api-native-tls = "0.1.*"
+
+[build-dependencies]
+protoc-rust-grpc   = "0.6.1"
